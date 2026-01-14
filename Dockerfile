@@ -9,7 +9,7 @@ ARG GROUPNAME=mygroup
 ENV TZ=America/New_York
 
 RUN groupadd --gid $USER_GID $GROUPNAME \
-    && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
+    && useradd --uid $USER_UID --gid $USER_GID -m -s /bin/bash $USERNAME \
     && apt-get update \
     && apt-get install -y sudo \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
