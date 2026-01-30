@@ -368,7 +368,7 @@ This prints out a lot of results. What if we wanted to count how many lines the 
 cat mobydick.txt | grep "Captain" | wc -l
 ```
 
-How many lines contain "Captain" in this text?
+How many lines contain "Captain" in this text? 104
 
 What if we wanted to search across many files for a word? `grep` is still useful here. Issue this command from within your home directory:
 
@@ -732,7 +732,8 @@ Now complete the following steps on your own. Start a <a href="https://gist.gith
 
 9. Show the command to either tar or zip the "development" subdirectory with all files inside of it, *including* the directory itself.
 
-10. Write a line of code that exports a `FAVORITE_FLAVOR` environment variable, with a corresponding value (vanilla, caramel, salty, chocolate, etc.) into your `~/.bashrc` file.
+10. Write a line of code that exports a `FAVORITE_FLA
+VOR` environment variable, with a corresponding value (vanilla, caramel, salty, chocolate, etc.) into your `~/.bashrc` file.
 
 ## Submit Your Work
 **Paste your GitHub Gist URL in the Lab 01 assignment in Canvas.**
