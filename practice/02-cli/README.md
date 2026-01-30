@@ -10,7 +10,7 @@ The goal of this activity is to familiarize you with the fundamental commands us
 
 Go to your ***forked course repository*** and start a Codespaces. If you haven't forked the repo yet, do it now and start the prebuild of your Codespace as described in [Lab 00: Setup](../labs/00-env/README.md); while you're waiting for the build process to complete start a codespace from the *course repo* instead so you can start with exercises. 
 
-> **Advanced: Optional** - If you set up software tools on your own computer, for an additional challenge, complete these exercises on your local laptop using either the MacOS Terminal (Mac) or Git Bash (Windows). You may need to modify some commands accordingly. Please be aware that these commands will not work in Windows PowerShell as is.
+> **Optional** - If you set up software tools on your own computer, for an additional challenge, complete these exercises on your local laptop using either the MacOS Terminal (Mac) or Git Bash (Windows). If you use other terminal programs you may need to modify some commands accordingly. Please be aware that these commands will not work in Windows PowerShell as is.
 
 1. Start working through [CLI commands: Lab 01](../../labs/01-cli/README.md) (You may see a 404 error until the lab is released)
 
@@ -25,8 +25,7 @@ Go to your ***forked course repository*** and start a Codespaces. If you haven't
 A few places you can find explanations and examples for various commands:
 
 1. Use the `man` tool in the terminal! For instance, to learn about `cp` and all of its features, options, etc., type `man cp` and read the documentation. Use the up and down arrows to navigate, then press `Q` to return to the prompt.
-2. Look at **Linux in a Nutshell** or the **Linux Pocket Guide** in Canvas Module 1. They include all the details!
-   
+2. Look at **Linux Command Reference** cheatsheet in Canvas Module 01 and links to additional [Resources](#resources) at the end of this page.
 
 ### Getting Oriented to your Home Directory
 
@@ -1030,7 +1029,7 @@ SSH connections look very similar to email addresses, in the form of USER @ HOST
 Try a connection using a password:
 
 ```
-ssh ds2002@34.201.203.207
+ssh ds2002@54.234.9.240
 ```
 Connect using the password given to you in the Canvas instructions for this lab.
 
@@ -1038,6 +1037,8 @@ Connect using the password given to you in the Canvas instructions for this lab.
 2. Check the login status of other users with the command `last -i`.
 3. View the `history` of this account. Since all students are sharing a single account name, you'll see the history of other students included.
 4. To leave the SSH session, type `exit`.
+
+Access to this Linux instance will be revoked after `Lab 01` closes.
 
 ### date
 
@@ -2133,4 +2134,6 @@ These advanced commands help you understand and manage your system at a deeper l
 ## Resources
 
 - <a href="https://learning.rc.virginia.edu/tutorials/unix-tutorial/" target="_blank" rel="noopener noreferrer">UVA Research Computing's Unix Tutorial</a>
+- [Linux Command Reference](https://canvas.its.virginia.edu/courses/167598/modules/items/1996659) - a cheatsheet
 - [Linux Commands](https://www.linuxjournal.com/tag/commands)
+- [Watch: Beginner's Guide to the Bash Terminal Links to an external site](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
