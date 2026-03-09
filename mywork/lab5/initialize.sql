@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 DROP DATABASE IF EXISTS lab5_demo;
 CREATE DATABASE lab5_demo;
 USE lab5_demo;
@@ -91,4 +91,4 @@ INSERT INTO books (book_id, title, genre, publish_year, author_id) VALUES
 (108, 'The Handmaid''s Tale', 'Dystopian', 1985, 6),
 (109, '1984', 'Dystopian', 1949, 7),
 (110, 'Kindred', 'Science Fiction', 1979, 10);
->>>>>>> f3225fe (Complete Lab 05: SQL for Data Engineering)
+
