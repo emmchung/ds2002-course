@@ -1,5 +1,5 @@
 
-use bookstor
+use bookstore
 
 insert first author
 db.authors.insertOne({
