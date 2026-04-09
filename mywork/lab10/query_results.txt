@@ -1,0 +1,11 @@
+book_id	title	genre	publish_year	author_name	country
+112	Book B	Fiction	2005	Author B	UK
+107	Kafka on the Shore	Magical Realism	2002	Haruki Murakami	Japan
+111	Book A	Fiction	2000	Author A	USA
+101	Beloved	Fiction	1987	Toni Morrison	United States
+104	Love in the Time of Cholera	Romance	1985	Gabriel Garcia Marquez	Colombia
+108	The Handmaid's Tale	Dystopian	1985	Margaret Atwood	Canada
+110	Kindred	Science Fiction	1979	Octavia Butler	United States
+102	Song of Solomon	Fiction	1977	Toni Morrison	United States
+103	One Hundred Years of Solitude	Magical Realism	1967	Gabriel Garcia Marquez	Colombia
+106	Things Fall Apart	Historical Fiction	1958	Chinua Achebe	Nigeria
